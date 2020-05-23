@@ -116,5 +116,5 @@ def inference(input, num_class, keep_prob, is_training):
                 fc3 = slim.fully_connected(fc2, num_class, scope='fc3')
                 print_tensor_info(fc3)
 
-            return fc3
+    return fc3
 
