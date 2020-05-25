@@ -17,7 +17,7 @@ decay_step = 500
 iteration = 50000
 
 
-def nuaa():
+def foo():
     print('')
 
 
