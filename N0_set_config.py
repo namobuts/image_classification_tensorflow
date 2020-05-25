@@ -8,7 +8,9 @@ drop_rate = 0.5
 num_class = 5
 
 resize_width = resize_height = 100
-batch_size = 70
+# batch_size = 70 # 这个是给inception
+
+batch_size = 100 # 这个是给alexnet
 
 learning_rate = 0.001
 decay_rate = 0.9
