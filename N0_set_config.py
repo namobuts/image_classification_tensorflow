@@ -11,7 +11,7 @@ resize_width = resize_height = 100
 batch_size = 70
 
 learning_rate = 0.001
-decay_rate = 0.
+decay_rate = 0.9
 decay_step = 500
 
 iteration = 50000
@@ -22,5 +22,5 @@ def nuaa():
 
 
 if __name__ == '__main__':
-    nuaa()
+    foo()
 
